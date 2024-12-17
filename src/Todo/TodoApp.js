@@ -38,7 +38,7 @@ const TodoApp = () => {
   return (
     <div className="todo-container" style={{ padding: '20px', maxWidth: '600px', margin: 'auto' }}>
       <Toast ref={toast} />
-      <h2>To-Do App</h2>
+      <h2>Basic To-Do App</h2>
       
       <div className="p-inputgroup" style={{ marginBottom: '10px' }}>
         <span className="p-inputgroup-addon">Task</span>
