@@ -2,7 +2,7 @@
   "name": "todo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sourabhVertisystem.github.io/todoApp",
+  "homepage": "https://sourabh49.github.io/todoApp",
   "dependencies": {
     "axios": "^1.7.9",
     "cra-template": "1.2.0",
