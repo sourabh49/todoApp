@@ -55,12 +55,12 @@ const TodoApp = () => {
       <DataTable value={todos} paginator rows={5} header="Task List" responsiveLayout="scroll">
         <Column field="task" header="Task" />
         <Column field="description" header="Description" />
-        <Column
+        {/* <Column
           body={(rowData) => (
             <Button label="Delete" icon="pi pi-times" className="p-button-danger" onClick={() => deleteTodo(rowData.task)} />
           )}
           header="Actions"
-        />
+        /> */}
       </DataTable>
     </div>
   );
